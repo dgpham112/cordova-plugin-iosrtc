@@ -19,7 +19,7 @@
 	</engines>
 
 	<platform name="ios">
-
+		<dependency id="cordova-plugin-add-swift-support@1.7.2"/>
 		<config-file target="config.xml" parent="/*">
 			<feature name="iosrtcPlugin">
 				<param name="ios-package" value="iosrtcPlugin" />
